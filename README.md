@@ -48,6 +48,7 @@ This app runs in the background, in the ticket sidebar. It doesn't have a user i
 Because this is a very simple app, the answer to most questions is probably 'No'.  
 
 **Can I update date fields with this app?**
+
 No
  
 **Can I add values like +1**
@@ -77,6 +78,8 @@ The app only supports moving data through tags via macros. As such, the app will
 Please submit bug reports to [Joel Hellman](mailto:Joel.Hellman@tre.se). Pull requests are welcome.
 
 ### Screenshot(s):
+
+This is actually a gif animation. (Try reloading this page if you cannot see the animation.)
 
 ![demo-small](https://cloud.githubusercontent.com/assets/3614135/11646628/12f90cda-9d60-11e5-9874-eef0b729cf6c.gif)
 
