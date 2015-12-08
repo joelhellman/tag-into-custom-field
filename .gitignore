@@ -1,0 +1,6 @@
+*.iml
+.idea/
+tmp/
+gimp/
+settings.yml
+.zat

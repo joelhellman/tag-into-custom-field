@@ -1,0 +1,55 @@
+{
+  "app": {
+    "package": "app_package",
+    "description": {
+      "value": "Use tags to set ticket field data that you cannot set otherwise",
+      "title": "App description"
+    },
+    "name": {
+      "value": "Tag Data Into Ticket Field",
+      "title": "App name"
+    },
+    "parameters": {
+      "instructions": {
+        "label": {
+          "value": "What's the purpose of this app?",
+          "title": "Dummy"
+        },
+        "helpText": {
+          "value": "The purpose of this app is to work around macro action limitations in Zendesk, by allowing you to move data into custom ticket fields by using tags. You can use this app to move data into ticket fields of the following types: text, multi-line, numeric, decimal, and regex. The app runs in the background of the ticket sidebar. To set it up, just specify which ticket field id you want populated, and optionally how tags should be matched. After installing it, you use it by having macros adding a tag matching your regex, such as 'prefix:my_data', and when the macro is applied and the tag is added, the data part of the tag will be moved to your target field, and the data carrying tag removed.",
+          "title": "Dummy"
+        }
+      },
+      "custom_field_id": {
+        "label": {
+          "value": "Target ticket field ID",
+          "title": "Dummy"
+        },
+        "helpText": {
+          "value": "Enter the target ticket custom field ID (only the number part) where you want to transfer your tag data. The app only supports moving data into one field, but you can install it multiple times.",
+          "title": "Dummy"
+        }
+      },
+      "regex": {
+        "label": {
+          "value": "Tag data identifier (regex)",
+          "title": "Dummy"
+        },
+        "helpText": {
+          "value": "A regex that identifies the tag and the data part of the tag that should transfer data to the target field. The default value ^prefix:([^\\s]+)$ will match tags of the form prefix:* and move the * part into the ticket field.",
+          "title": "Dummy"
+        }
+      },
+      "textify": {
+        "label": {
+          "value": "Convert underscore to spaces",
+          "title": "Dummy"
+        },
+        "helpText": {
+          "value": "When transferring tag data to a custom field, convert underscores to spaces, so that prefix:Some_data will be moved as 'Some data', instead of 'Some_data'",
+          "title": "Dummy"
+        }
+      }
+    }
+  }
+}

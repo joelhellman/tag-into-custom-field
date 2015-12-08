@@ -1,0 +1,37 @@
+{
+  "name": "Tag Data Into Ticket Field",
+  "author": {
+    "name": "Joel Hellman",
+    "email": "joel.hellman@tre.se",
+    "url": "https://github.com/joelhellman/tag-into-custom-field"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": "ticket_sidebar",
+  "version": "1.01",
+  "frameworkVersion": "1.0",
+  "noTemplate": true,
+  "parameters": [
+    {
+      "name": "custom_field_id",
+      "type": "text",
+      "required": true
+    },
+    {
+      "name": "regex",
+      "type": "text",
+      "default": "^prefix:([^\\s]+)$",
+      "required": true
+    },
+    {
+      "name": "textify",
+      "type": "checkbox",
+      "default": true
+    },
+    {
+      "name": "instructions",
+      "type": "checkbox",
+      "default": true
+    }
+  ]
+}
