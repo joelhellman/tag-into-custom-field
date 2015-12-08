@@ -10,8 +10,8 @@ This app can be used to have macros set values to ticket fields of the following
 
 ### Installation
 
-1. Install the app. 
-2. Specify which ticket field id you want populated
+1. Install the app (=download as zip, upload as private app).
+2. Specify which ticket field id you want populated.
 3. Optionally change the regex field to control how tags should be matched. 
 
 ### Usage 
