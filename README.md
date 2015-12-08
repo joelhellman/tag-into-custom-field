@@ -79,9 +79,7 @@ Please submit bug reports to [Joel Hellman](mailto:Joel.Hellman@tre.se). Pull re
 
 ### Screenshot(s):
 
-This is actually a gif animation. (Try reloading this page if you cannot see the animation.)
-
-![demo-small](https://cloud.githubusercontent.com/assets/3614135/11646628/12f90cda-9d60-11e5-9874-eef0b729cf6c.gif)
+![demo-small](https://cloud.githubusercontent.com/assets/3614135/11647391/b4987eb6-9d67-11e5-8e3d-c3a72584c8ad.gif)
 
 ![settings-page](https://cloud.githubusercontent.com/assets/3614135/11646296/e482ce84-9d5c-11e5-833e-907e36283328.png)
 
