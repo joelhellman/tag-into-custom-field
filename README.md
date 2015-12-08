@@ -51,18 +51,23 @@ Because this is a very simple app, the answer to most questions is probably 'No'
 No
  
 **Can I add values like +1**
+
 No
 
 **Can I append values to fields?**
+
 No, the target field value is replaced - not appended. 
 
 **What happens if I have multiple tags matching a pattern?**
+
 If you add tags like 'prefix:data1 prefix:data2', then the last one will win, so 'data2' will be set, though all prefix:tags will be removed from the tag field.   
 
 **Can I use the app to pull data into multiple fields?**
+
 You can install the app multiple times if you want.
 
 **Can I transfer data with tags through automations or triggers with this app?**
+
 No. If you want to set ticket fields values that cannot be set natively in Zendesk using triggers or automations, this app doesn't offer a solution.
 
 The app only supports moving data through tags via macros. As such, the app will only parse tags while tags field is updated while working on a ticket. The app won't try to parse the existing ticket tags, if you happen across a ticket that has a matching tag. This is because the user would then need to save the ticket to apply the changes, and I think that would be confusing. 
@@ -73,4 +78,7 @@ Please submit bug reports to [Joel Hellman](mailto:Joel.Hellman@tre.se). Pull re
 
 ### Screenshot(s):
 
-[put your screenshots down here.]
+![demo-small](https://cloud.githubusercontent.com/assets/3614135/11646628/12f90cda-9d60-11e5-9874-eef0b729cf6c.gif)
+
+![settings-page](https://cloud.githubusercontent.com/assets/3614135/11646296/e482ce84-9d5c-11e5-833e-907e36283328.png)
+
