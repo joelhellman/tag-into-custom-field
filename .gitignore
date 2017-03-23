@@ -2,5 +2,8 @@
 .idea/
 tmp/
 gimp/
-settings.yml
+/settings*
 .zat
+.zatcurrent
+deploy/
+/notes*
